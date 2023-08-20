@@ -1,0 +1,46 @@
+/*CSS Reset Rule*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.view-details {
+  align-self: flex-end;
+}
+
+.carousel-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+body {
+margin: 0; 
+padding: 0; 
+background-image: url("https://media-exp1.licdn.com/dms/image/C561BAQH8l4bixaNRSw/company-background_10000/0/1620115088279?e=2147483647&v=beta&t=wWRPoHJMFftX6wVDMvV5VB6jsBhE6YIzOK5V-wxcnD0");
+background-size: 100%;
+}
+
+.font {
+font-family: 'Oswald', sans-serif;
+color: azure;
+}
+
+
+.custom-navbar {
+background-color: #a6aa72;
+
+}
+
+.main-content {
+  flex: 1;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
