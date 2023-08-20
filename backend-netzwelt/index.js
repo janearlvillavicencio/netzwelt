@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors());
 
 // Mongoose Connection
-mongoose.connect("mongodb+srv://janearlvillavicencio:admin123@batch295.ew2g5gi.mongodb.net/netzwelt?retryWrites=true&w=majority",
+mongoose.connect("",
 			{
 				useNewUrlParser: true,
 				useUnifiedTopology:true
